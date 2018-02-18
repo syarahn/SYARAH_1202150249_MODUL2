@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3"
+    tools:context="com.example.gl552vw.syarah_1202150249_modul2.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ceu_odah"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="30dp"
+        android:text="Pilih menu: "
+        android:textAlignment="center"
+        android:layout_below="@+id/logoRest"/>
+
+    <RadioGroup
+        android:id="@+id/GroupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/RadioDine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dine In"
+            android:textAlignment="center"/>
+        <RadioButton
+            android:id="@+id/RadioTake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take Away"
+            android:textAlignment="center"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Sekarang"
+        android:onClick="btn_pesan"
+        android:layout_below="@+id/GroupMenu"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
+        android:padding="7dp"/>
+
+</RelativeLayout>

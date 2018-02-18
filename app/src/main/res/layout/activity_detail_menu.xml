@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gl552vw.syarah_1202150249_modul2.DetailMenuActivity">
+
+    <TextView
+        android:id="@+id/DetailMkn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Nasi Timbel"/>
+
+    <ImageView
+        android:id="@+id/DetailGbr"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/ceu_odah"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/DetailHrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Rp. 30000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Komposisi : "/>
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Nasi timbel yang pulen dengan ikan asin, pepes ikan, empal, ayam goreng, tawes, dan japuh. Tidak lupa juga terdapat lalapan serta sambal"/>
+
+
+</LinearLayout>

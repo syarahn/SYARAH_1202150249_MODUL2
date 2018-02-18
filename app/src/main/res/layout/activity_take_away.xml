@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gl552vw.syarah_1202150249_modul2.TakeAwayActivity">
+
+    <TextView
+        android:id="@+id/header_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Identitas Pemesan: "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_take"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_name"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <EditText
+        android:id="@+id/editText_address"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_phone"
+        android:layout_centerHorizontal="true"
+        android:hint="Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <EditText
+        android:id="@+id/editText_note"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_address"
+        android:layout_centerHorizontal="true"
+        android:hint="Note"
+        android:inputType="textLongMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <Button
+        android:id="@+id/btn_menuTake"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_note"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:onClick="btn_menuTake"
+        android:text="Pilih Pesanan"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"/>
+</RelativeLayout>
